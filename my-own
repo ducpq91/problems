@@ -1,0 +1,7 @@
+#1
+
+You have a data file. You don't know what is the delimiter so that you can import the data and print it out on the screen.
+Given that the delimiter is an uncommon one, how do you find out what the delimiter is?
+
+--> one way is to count frequency of each character that appears in the file. Then print out multiple possibilities of the data
+set and *visually* choose the most appropriate looking one. The user's choice will then let the program know what the delimiter is.
